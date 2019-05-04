@@ -71,15 +71,15 @@ If not, create an empty folder on your system anywhere (I prefer Documents) and 
 1.   In the left menu select VC++ Directories and under `Include Directories` select `Edit` and put in the path to the `Includes` folder from above.
 1.   Repeat the same for the `Library Directories` with the `Libs` folder.
 1.   In the left menu, under `C/C++`, select `Command Line` and under `Additional Options` copy and paste the following:
-```
--DIBM=1 -DXPLM200=1 -DXPLM210=1 -DXPLM300=1 -DXPLM301=1
-```
+     ```
+     -DIBM=1 -DXPLM200=1 -DXPLM210=1 -DXPLM300=1 -DXPLM301=1
+     ```
 1.   In the left men, under `Linker` > `Input`, select `Additional Dependencies`and hit `Edit`. In the box, type in each of the following on a newline:
-```
-opengl32.lib
-XPLM_64.lib
-XPWidgets_64.lib
-```
+     ```
+     opengl32.lib
+     XPLM_64.lib
+     XPWidgets_64.lib
+     ```
 1.   That should complete the project setup. Try and compile the code. If it works then you're golden! If not, I would suggest checking the steps again or looking at the documentation on the [plugin page](https://developer.x-plane.com/sdk/).
 
 
