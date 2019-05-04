@@ -11,6 +11,10 @@ TypeIt supports the following:
     *   NAV1 and NAV2 Standby frequencies.
     *   Transponder/Squawk code.
 
+# Download
+
+Download the plugin [here](https://github.com/zangman/TypeIt/releases/download/1.0/TypeIt.zip) and extract it to `Resources` > `Plugins` in your X-Plane 11 folder.
+
 # Usage
 
 ## FMC
